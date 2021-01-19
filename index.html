@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title"> EL YO QUE NO ES YO </h1>
+    <p id="description">Como sabes que lo qur vez y sientes es cierto</p>
+
+    <form id="survey-form">
+        <label for="name" id="name-label">Name</label><br>
+        <input type="text" id="name" required placeholder="Tu Nombre"><br><br>
+        <label for="email" id="email-label">@email</label><br>
+        <input type="email" name="email" id="email" required placeholder="Tu email"><br><br>
+        <label for="edad" id="number-label">Los años que tiene tu persona</label><br>
+        <input type="number" name="edad" id="number" min="16" max="90" placeholder="Tu edad"><br><br>
+        <select id="dropdown">
+            <option disabled selected value>De que la rolas?</option>
+            <option value="estudio">Estudio</option>
+            <option value="nini">Nini</option>
+            <option value="trabajo">Trabajo</option>
+            <option value="No-se">No se</option>
+        </select>
+
+        <p>que piensas hacer con tu vida</p>
+        <label><input type="radio" value="arquitecto" class="entrda-radio" name="tu-vida">Arquitecto</label>
+        <label><input type="radio" value="macuarro" class="entrda-radio" name="tu-vida">Macuarro</label>
+        <label><input type="radio" value="ni-idea" class="entrda-radio" name="tu-vida">Ni Idea</label>
+
+        
+
+    </form>
+
+    
+    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
